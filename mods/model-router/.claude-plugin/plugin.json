@@ -1,0 +1,1 @@
+{ "name": "model-router", "version": "0.2.0", "description": "Picks Haiku, Sonnet or Opus from a conversation's first prompt and keeps it until /clear; /router on|off", "author": { "name": "Vlad Dumitrescu", "email": "vladdu55@gmail.com" }, "types": "./types/index.d.ts" }

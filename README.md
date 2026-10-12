@@ -11,6 +11,13 @@ plugins/<name>/                   plugins (.claude-plugin/plugin.json + skills/,
 mods/<name>/                      mods: plugins that change Claude Code's UI/behaviour (hooks/hooks.json -> modules)
 ```
 
+## Mods
+
+- `model-router`: picks Haiku, Sonnet or Opus from a conversation's first prompt and keeps it until `/clear`; `/router on|off`.
+  ```
+  /plugin install model-router --marketplace vladdu/claude-kit
+  ```
+
 ## Skills
 
 Create `skills/<name>/SKILL.md`, then link it:

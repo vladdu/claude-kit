@@ -4,5 +4,11 @@
   "owner": {
     "name": "Vlad"
   },
-  "plugins": []
+  "plugins": [
+    {
+      "name": "model-router",
+      "source": "./mods/model-router",
+      "description": "Picks Haiku, Sonnet or Opus from a conversation's first prompt and keeps it until /clear; /router on|off"
+    }
+  ]
 }
