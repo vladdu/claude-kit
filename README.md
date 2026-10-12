@@ -34,8 +34,16 @@ Mod tests: `claude plugin test mods/<name>`.
 
 ## Marketplace registration
 
-Already registered locally (`vladdu` -> this directory). On a new machine:
+Install from GitHub (any machine):
+
+```
+claude plugin marketplace add vladdu/claude-kit
+```
+
+For development, register the local checkout instead, so edits are picked up without pushing:
 
 ```
 claude plugin marketplace add ~/projects/claude-kit
 ```
+
+This machine already uses the local checkout (`vladdu` -> `~/projects/claude-kit`).
